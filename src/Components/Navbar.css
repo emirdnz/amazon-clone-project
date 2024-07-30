@@ -1,0 +1,92 @@
+.navbar {
+  background-color: #131921;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar__top {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar__logo img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.navbar__location {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar__locationText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.navbar__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar__searchInput {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.navbar__searchIcon {
+  padding: 10px;
+  height: 40px;
+  background-color: #febd69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.navbar__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.navbar__optionLineOne {
+  font-size: 10px;
+}
+
+.navbar__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.navbar__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
