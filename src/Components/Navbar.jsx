@@ -5,8 +5,6 @@ import logo from './images/amazon_logo.png';
 
 
 
-/*test*/
-
 const Navbar = () => {
   return (
     <div className="navbar">
